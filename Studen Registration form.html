@@ -1,0 +1,62 @@
+<!doctype HTML>
+<html>
+<head>
+<title>Student Registration Form</title>
+</head>
+<body>
+<h1>Student Registration</h1>
+<form action="#" method="post">
+<fieldset>
+<legend>Personal Information</legend>
+<section>
+<div>
+<label for="name"> Full Name:</label>
+<input type="text" id="name" name="fullname" required><br><br>
+</div>
+<div>
+<label for="name">Email:</label>
+<input type="email" id="email" name="email" required><br><br>
+</div>
+<div>
+<label for="password">Password:</label>
+<input type="password" id="password" name="password" required><br><br>
+</div>
+</section>
+</fieldset>
+<fieldset>
+<legend> Other Details</legend>
+<section>
+<div>
+<label><input type="radio" name="gender" value="male" required>Male</label>
+</div>
+<div>
+<label><input type="radio" name="gender" value="female" required>Female</label>
+</div>
+<div>
+<p>Hobbies:</p>
+<div>
+<label><input type="checkbox" name="hobby" value="reading">Reading</label>
+<label><input type="checkbox" name="hobby" value="music">Music</label>
+<label><input type="checkbox" name="hobby" value="gaming">Gaming</label>
+<label><input type="checkbox" name="hobby" value="sport">Sport</label>
+</div>
+<div>
+<label for="country">Country</label><br>
+<select id="country" name="country" required>
+<option value="">--select--</option>
+<option value="india">India</option>
+<option value="russia">Russia</option>
+<option value="usa">Usa</option>
+<option value="uk">Uk</option>
+<option value="china">China</option>
+</div>
+<div>
+<label for="comment">Additional Comment</label><br>
+<textarea id="comments" name="comment" rows="4" cols="4"></textarea<br><br>
+</div>
+</section>
+</fieldset>
+<div><button type="submit">Submit</button></div>
+</form>
+</body>
+</html>
